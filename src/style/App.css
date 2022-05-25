@@ -1,1 +1,15 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  color: #414447;
+}
+/*# sourceMappingURL=App.css.map */

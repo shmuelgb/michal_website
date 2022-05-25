@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,2FAAI;ADEZ,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,WAAW,ECGE,WAAW,EAAE,UAAU;EDFpC,SAAS,EAAE,IAAI;EACf,KAAK,ECFM,OAAO;CDGnB",
     "sources": [
-        "App.scss"
+        "App.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "App.css"

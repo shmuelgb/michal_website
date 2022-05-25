@@ -1,1 +1,97 @@
-/* No CSS *//*# sourceMappingURL=Homepage.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600&display=swap");
+.Homepage {
+  min-height: 200vh;
+}
+
+.Homepage .Homepage-header {
+  background: url(../../style/assets/cover.png) no-repeat bottom center/cover;
+  height: 75vh;
+}
+
+.Homepage .features-strip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35vh;
+  margin-bottom: 30px;
+}
+
+.Homepage .features-strip .features-strip_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 800px;
+}
+
+.Homepage .features-strip .features-strip_icons .features-strip_icon {
+  width: 100px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #a5a6a7;
+}
+
+.Homepage .features-strip .features-strip_icons .icon1 {
+  background: url(../../style/assets/icons1.png) no-repeat center/contain;
+}
+
+.Homepage .features-strip .features-strip_icons .icon2 {
+  background: url(../../style/assets/icons2.png) no-repeat center/contain;
+}
+
+.Homepage .features-strip .features-strip_icons .icon3 {
+  background: url(../../style/assets/icons3.png) no-repeat center/contain;
+}
+
+.Homepage .features-strip .features-strip_icons .icon4 {
+  background: url(../../style/assets/icons4.png) no-repeat center/contain;
+}
+
+.Homepage .features-strip .features-strip_icons .icon5 {
+  background: url(../../style/assets/icons5.png) no-repeat center/contain;
+}
+
+.Homepage .homepage-shutout {
+  background-color: #c8eae4;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Homepage .homepage-shutout .homepage-shutout_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #a5a6a7;
+  font-weight: bold;
+  width: 400px;
+}
+
+.Homepage .homepage-shutout .homepage-shutout_text span {
+  text-align: start;
+  display: inline-block;
+}
+/*# sourceMappingURL=Homepage.css.map */
