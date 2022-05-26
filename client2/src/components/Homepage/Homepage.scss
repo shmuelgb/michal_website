@@ -21,11 +21,13 @@
             width: 800px;
 
             .features-strip_icon {
+                display: flex;
                 width: 100px;
                 height: 150px;
                 display: flex;
-                align-items: flex-end;
+                align-items: center;
                 justify-content: center;
+                flex-direction: column;
                 color: $font-color-2;
             }
 

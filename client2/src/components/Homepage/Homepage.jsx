@@ -2,12 +2,15 @@ import React from "react";
 import FeaturesStrip from "./Features-strip";
 import "./Homepage.css";
 import logo from "../../style/assets/logo-ex.jpeg";
+import cover from "../../style/assets/cover.png";
 
 function Homepage() {
   return (
     <div className="Homepage">
       <div className="header-placeholder"></div>
-      <div className="Homepage-header"></div>
+      <div className="Homepage-header">
+        <img src={cover} alt="cover_photo" />
+      </div>
       <FeaturesStrip />
       <div className="homepage-shutout">
         <div className="homepage-shutout_text">
