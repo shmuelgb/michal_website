@@ -12,4 +12,9 @@
   font-size: 18px;
   color: #414447;
 }
+
+.App .header-placeholder {
+  height: 8vh;
+  z-index: -1;
+}
 /*# sourceMappingURL=App.css.map */

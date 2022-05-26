@@ -6,6 +6,7 @@ import logo from "../../style/assets/logo-ex.jpeg";
 function Homepage() {
   return (
     <div className="Homepage">
+      <div className="header-placeholder"></div>
       <div className="Homepage-header"></div>
       <FeaturesStrip />
       <div className="homepage-shutout">
